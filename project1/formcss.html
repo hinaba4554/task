@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form table</title>
+    <style>
+       *{
+        background-color: rgb(83, 83, 199);
+        margin: 0;
+        padding: 0;
+        height: 20px;
+       }
+      #one{
+        color: rgb(211, 29, 114);
+        letter-spacing: 2px;
+        padding-top: 20px;
+    } 
+     
+       tr,td,input{
+          font: bold;
+         background-color: white;
+         letter-spacing:2px;
+         height: 50px;
+         width: 362px; 
+         text-align: justify;  
+       }
+      .td3{
+             padding-left: 20px; 
+             border-color: aqua;
+             border-radius: 5%;
+             border: double;
+      }
+       .one{
+        background-color:white;
+       }
+       table{
+          text-align: center;
+          background-color: white; 
+        /* padding-left:20px;  */
+          margin: 90px; 
+          font-size: 30px;
+          height:90%; 
+          width:60%; 
+          border: dotted 8px;
+          border-color: rgb(80, 226, 43);
+       } 
+       
+       th{
+        background-color:white ;
+       }
+  span ,h1{ 
+        background-color: white;
+      text-decoration:underline;  
+      text-decoration-color: rgb(73, 20, 220); 
+  }
+  #two{
+    height:40px;
+    width:150px;
+    background-color:blue;
+    color: white;
+    font-size: 30px;
+    border:solid 6px pink ;
+    padding-left: 8px;
+    border-radius: 10%;
+    margin-left: 20px;
+  }
+    </style>
+</head>
+<body>
+    <center>
+    <table cellpadding="0"cellspacing="10">
+        <tr>
+           <h1><th><span>RE</span>GISTRATION</th></h1>   
+        </tr>
+        <tr>
+        <b><h2><td id="one">personal detail</td></h2></b>
+        
+        <tr>
+            <td>Full Name</td>
+            <td>Date Of Birth</td>
+            <td>Email</td>      
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter your name" class="td3"></td>
+            <td><input type="text" placeholder="Enter birth date" class="td3"></td>
+            <td><input type="email" placeholder="Enter your name" class="td3"></td>
+        </tr>
+        <tr>
+            <td>Mobile no</td>
+            <td>Gender</td>
+            <td>Occupation</td>      
+        </tr>
+        <tr>
+            <td><input type="tel" placeholder="Enter Mobile number" class="td3"></td>
+            <td><input type="text" placeholder="Enter your Gender" class="td3"></td>
+            <td><input type="text" placeholder="Enter Occupation" class="td3"></td>
+        </tr>
+         <tr>
+            <td id="one">Identity Details</td>
+         </tr>
+         <tr>
+            <td>Id type</td>
+            <td>Id Number</td>
+            <td>Issue Authority</td>      
+        </tr>
+        <tr>
+            <td class="one"><input type="text" placeholder="Enter id type" class="td3"></td>
+            <td><input type="text" placeholder="Enter Id number" class="td3"></td>
+            <td><input type="text" placeholder="Enter Issue Number" class="td3"></td>
+        </tr>
+        <tr>
+            <td>Issue Date </td>
+            <td>Issue State</td>
+            <td>Expiry Date</td>      
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter Id Issue Date " class="td3"></td>
+            <td><input type="text" placeholder="Enter id issue state" class="td3"></td>
+            <td><input type="text" placeholder="Enter id expiry date" class="td3"></td>
+        </tr>
+        <tr>
+            <td ><input type="button" value="next &rarr;" id="two"></td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+         .ball{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: blue;
+            border: 2px solid red;
+            position: relative;
+            animation: one 4s infinite alternate-reverse;
+         }
+         @keyframes one{
+           0%{
+            top: 0;
+            left: 0;
+           }
+           20%{
+            top: 500px;
+            left: 20%;
+           }
+           60%{
+            top: 0;
+            left: 40%;
+           }
+           80%{
+            top: 500px;
+            left: 60%;
+           }
+           100%{
+            top: 0;
+            left: 80%;
+           }
+         }
+
+    </style>
+</head>
+<body>
+     <div class="ball">
+
+     </div>  
+</body>
+</html>

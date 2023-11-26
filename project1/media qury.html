@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+</head>
+ <style>
+     *{
+        margin: 0;
+        padding: 0;
+        border:border-box;
+     }
+     .one{
+           width: 100%;
+           height: 200px;
+           display: flex;
+           margin-left: 20px;
+           margin-top: 20px;
+          
+     }
+    .one1{
+            width: 40%;
+            height:inherit;
+            margin-left: 20px;
+            background-color: lightblue;
+    }
+    .one2{
+            width: 60%;
+            height:inherit;
+            background-color: rgb(185, 89, 60);
+            margin-left: 20px;
+            margin-right: 30px;
+    }
+    .two{
+           width: 96%;
+           height: 200px;
+           margin-left: 39px;
+           margin-top: 20px;   
+           background-color: orangered;
+    }
+    .three{
+        width: 100%;   
+        display: flex;
+        
+    }
+    .th1{
+        background-color: yellow;
+        width: 33.33%;
+        margin-left:39px;
+        height:200px;
+        margin-top: 20px;
+        margin-right: 17px;
+    }
+     .four{
+           width: 96%;
+           height: 200px;
+           margin-left: 39px;
+           margin-top: 20px; 
+           background-color: rgb(9, 255, 0);
+     }
+     @media (min-width:320px) and (max-width:480px)
+     {
+        .one{
+           width: 100%;
+           height: 200px;
+           display: flex;
+           margin-left: 20px;
+           margin-top: 20px;
+          
+     }
+    .one1{
+            width: 40%;
+            height:inherit;
+            margin-left: 20px;
+            background-color: rgb(59, 104, 119);
+    }
+    .one2{
+            width: 60%;
+            height:inherit;
+            background-color: rgb(70, 20, 4);
+            margin-left: 20px;
+            margin-right: 1px;
+    }
+    .two{
+           width: 96%;
+           height: 200px;
+           margin-left: 39px;
+           margin-top: 20px;   
+           background-color: rgba(55, 0, 255, 0.349);
+    }
+    /* .three{
+        width: 100%;   
+        
+    } */
+    .th1{
+        background-color: rgb(23, 131, 65);
+        width:100%;
+        margin-left:39px;
+        height:200px;
+        margin-top: 20px;
+    }
+     .four{
+        width: 96%;
+           height: 200px;
+           margin-left: 39px;
+           margin-top: 20px; 
+           background-color: rgb(9, 255, 0);
+     }
+    }
+     @media (min-width:481px) and (max-width:768px)
+     {
+        .one{
+           width: 100%;
+           height: 200px;
+           display: flex;
+           margin-left: 20px;
+           margin-top: 20px;
+          
+     }
+    .one1{
+            width: 40%;
+            height:inherit;
+            margin-left: 20px;
+            background-color: rgb(230, 173, 222);
+    }
+    .one2{
+            width: 60%;
+            height:inherit;
+            background-color: rgb(60, 93, 185);
+            margin-left: 20px;
+            margin-right: 1px;
+    }
+    .two{
+           width: 96%;
+           height: 200px;
+           margin-left: 39px;
+           margin-top: 20px;   
+           background-color: rgb(136, 255, 0);
+    }
+    .three{
+        width: 100%;   
+        display: flex;
+    }
+    .th1{
+        background-color: rgb(255, 0, 0);
+        width: 33.33%;
+        margin-left:39px;
+        height:200px;
+        margin-top: 20px;
+    }
+     .four{
+        width: 96%;
+           height: 200px;
+           margin-left: 39px;
+           margin-top: 20px; 
+           background-color: rgba(217, 255, 0, 0.384);
+     }
+     }
+ </style>
+<body>
+      <div class="one">
+           <div class="one1"></div>
+           <div class="one2"></div> 
+      </div> 
+      <div class="two"></div>
+      <div class="three">
+        <div class="th1"></div>
+        <div class="th1"></div>
+        <div class="th1"></div>
+      </div>
+      <div class="four"></div>
+</body>
+</html>

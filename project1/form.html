@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1><center> <u style="color: blueviolet;">STUDENT REGETRATION FORM</u></center></h1>
+    <table align="center" style="background-color: rgb(206, 226, 222);">
+     <form  >
+         <tr>
+           
+            <td><label> Name</label></td>
+            <td><input type="text"pattern="[a-z and A_Z {0,30}] " required></td>
+         </tr>
+         <tr>
+            <td><label>Last Name</label></td>
+            <td><input type="text"pattern="[a-z and A_Z {0,30}] " required></td>
+         </tr>
+         <tr>
+            <td><label>Date of birth</label></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td><label>Email</label></td>
+            <td><input type="email" required></td>
+         </tr>
+         <tr>
+            <td><label>Mobile Number</label></label></td>
+            <td><input type="tel" maxlength="10" minlength="0" required></td>
+         </tr>
+         <tr>
+            <td><label for="efg" required>Gender</label></td>
+            <td>Male<input type="radio" name="abc" id="efg">
+            Female <input type="radio" name="abc" id="efg"></td>
+         </tr>
+         <tr>
+            <td><label>Adresss</label></td>
+            <td><textarea name=" adress" cols="25" rows="5"></textarea></td>
+         </tr>
+         <tr>
+            <td><label>City</label></td>
+            <td><input type="text" pattern="[a-z and A_Z {0,30}] "required></td>
+         </tr>
+         <tr>
+            <td>
+                <label>Pincode</label>
+            </td>
+            <td><input type="pincode" name="" id="" minlength="6" maxlength="0"></td>
+         </tr>
+         <tr>
+            <td><label>State</label></td>
+            <td><input type="text" required pattern="[a-z and A-Z{0,30}]"></td>
+         </tr>
+         <tr>
+            <td><label>Country</label></td>
+            <td><select name="" id="">
+                <option value="">india</option>
+                <option >America</option>
+                <option>Australian</option>
+                <option>Dubai</option>
+            </select></td>
+         </tr>
+         <tr>
+            <td><label>Hobbies</label></td>
+            <td>Drwaing<input type="checkbox">
+            Singing<input type="checkbox">
+        Dancing<input type="checkbox">
+    Strething<input type="checkbox"><br>
+Other<input type="checkbox"><input type="text"></td>
+         </tr>
+         <tr>
+            <td>Qulification</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Si.no.Examination</td>
+                        <td align="center">Board</td>
+                        <td>Percentage</td>
+                        <td>Year of passing</td>
+                    </tr>
+                    <tr>
+                        <td>1 classX</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2 classXii</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3 Graduation</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>4 Master </td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+            </td>
+         </tr>
+         <tr><td>
+            <label>Courses<br>Appliyed for</label></td>
+            <td>Bca<input type="radio" name="degree">
+            B.com<input type="radio" name="degree">
+            B.sc <input type="radio" name="degree">
+             B.A <input type="radio" name="degree"></td>
+         </tr>
+         <tr>
+            <td colspan="2"align="center"> <input type="submit">
+           <input type="reset"></td>
+         </tr>
+     </form>
+    </table>
+</body>
+</html>
